@@ -1,4 +1,4 @@
-/* @import url(../vendor/normalize.css); */
+@import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 
 * {
@@ -12,32 +12,42 @@
   --fw-normal: 500;
 
   /* Other */
-  --radii: 3rem;
+  --radii: 3px;
   --transition: all 0.8s ease-in;
   --op-transition: opacity 0.4s ease-in;
   --opacity: 0.7;
 }
 
-body[data-theme="dark"] {
-  --colors-text: ;
-  --colors-bg: ;
-  --colors-ui-base: ;
-  --colors-ui-alt: ;
-  --colors-ui-button: ;
+[data-theme="dark"] {
+  --colors-text: #fff;
+  --colors-text-alt: #8B8B8B;
+  --colors-text-ui: #000;
+  --colors-head: #202020;
+  --colors-bg: #202020;
+  --colors-bg-alt: #272727;
+  --colors-ui-base: #3DDC84;
+  --colors-ui-alt: #303030;
+  --colors-ui-button: #4285F4;
+  --colors-ui-button-alt: #424242;
 
-  --colors-error: ;
+  --colors-red: #EE3465;
 
   --shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-body[data-theme="light"] {
-  --colors-text: ;
-  --colors-bg: ;
-  --colors-ui-base: ;
-  --colors-ui-alt: ;
-  --colors-ui-button: ;
+[data-theme="light"] {
+  --colors-text: #000;
+  --colors-text-alt: #a0a0a0;
+  --colors-text-ui: #fff;
+  --colors-head: #DDDEE3;
+  --colors-bg: #fff;
+  --colors-bg-alt: #F5F5F5;
+  --colors-ui-base: #3456F3;
+  --colors-ui-alt: #F2F2F2;
+  --colors-ui-button: #3456F3;
+  --colors-ui-button-alt: #F4F4F4;
 
-  --colors-error: ;
+  --colors-red: #FF4062;
 
   --shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
