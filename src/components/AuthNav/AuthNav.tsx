@@ -1,4 +1,4 @@
-import { Login, Registration, Wrapper } from "./styles";
+import { Login, Registration, Wrapper } from './styles';
 
 export const AuthNav = () => {
   return (

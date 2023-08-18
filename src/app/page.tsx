@@ -1,12 +1,13 @@
-import { Header } from "../components/Header/Header";
+'use client';
 
-import styles from "./page.module.css";
+import { Navigation } from '../components/Navigation/Navigation';
+import { Promo } from '../components/Promo/Promo';
 
 export default function Home() {
   return (
-    <main className={styles.page}>
-      <Header />
-      <h1>Добро пожаловать</h1>
-    </main>
+    <>
+      <Promo />
+      <Navigation />
+    </>
   );
 }

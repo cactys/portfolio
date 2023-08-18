@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
 
-import { BsMoon, BsSun } from "react-icons/bs";
-import { Button } from "./styles";
+import { BsMoon, BsSun } from 'react-icons/bs';
+import { Button } from './styles';
 
 export const ThemeButton = () => {
   const [mounted, setMounted] = useState(false);
@@ -19,12 +19,12 @@ export const ThemeButton = () => {
   }
 
   const changeTheme = () => {
-    setTheme(resolvedTheme === "dark" ? "light" : "dark");
+    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
   };
 
   return (
     <Button onClick={changeTheme}>
-      {resolvedTheme === "dark" ? <BsSun size={18} /> : <BsMoon size={18} />}
+      {resolvedTheme === 'dark' ? <BsSun size={18} /> : <BsMoon size={18} />}
     </Button>
   );
 };
