@@ -4,8 +4,8 @@ import { Container, NavEl, NavLink, NavList, Wrapper } from './styles';
 
 export const Navigation = () => {
   return (
-    <Container>
-      <Wrapper>
+    <Wrapper>
+      <Container>
         <NavList>
           <NavEl>
             <NavLink href="/">О проекте</NavLink>
@@ -17,7 +17,7 @@ export const Navigation = () => {
             <NavLink href="/">Студент</NavLink>
           </NavEl>
         </NavList>
-      </Wrapper>
-    </Container>
+      </Container>
+    </Wrapper>
   );
 };

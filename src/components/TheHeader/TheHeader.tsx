@@ -7,14 +7,14 @@ import { HeaderEl, NavContainer, Wrapper } from './styles';
 
 export const TheHeader = () => {
   return (
-    <HeaderEl>
-      <Wrapper>
+    <Wrapper>
+      <HeaderEl>
         <Logo />
         <NavContainer>
           <AuthNav />
           <ThemeButton />
         </NavContainer>
-      </Wrapper>
-    </HeaderEl>
+      </HeaderEl>
+    </Wrapper>
   );
 };

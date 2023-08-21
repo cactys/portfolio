@@ -4,10 +4,10 @@ import { Container, Title, Wrapper } from './styles';
 
 export const Promo = () => {
   return (
-    <Container>
-      <Wrapper>
+    <Wrapper>
+      <Container>
         <Title>Учебный проект студента факультета Веб-разработки.</Title>
-      </Wrapper>
-    </Container>
+      </Container>
+    </Wrapper>
   );
 };

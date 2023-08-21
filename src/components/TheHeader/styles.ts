@@ -1,6 +1,6 @@
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
-export const HeaderEl = styled.header`
+export const Wrapper = styled.header`
   background-color: var(--colors-head);
   padding: 1.13rem 4.38rem;
   max-width: 1280px;
@@ -15,7 +15,7 @@ export const HeaderEl = styled.header`
   }
 `;
 
-export const Wrapper = styled.section`
+export const HeaderEl = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,9 +1,11 @@
+'use client';
+
 import './globals.css';
 import type { Metadata } from 'next';
-import { Providers } from './providers';
-import { TheHeader } from '../components/TheHeader/TheHeader';
 
-import styles from './page.module.css';
+import { Providers } from './providers';
+import { TheHeader } from '@/components/TheHeader/TheHeader';
+import { Body, Main } from './styles';
 
 export const metadata: Metadata = {
   title: 'Моё портфолио',
@@ -17,12 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru" data-theme="light" style={{ colorScheme: 'light' }}>
-      <body>
+      <Body>
         <Providers>
           <TheHeader />
-          <main className={styles.page}>{children}</main>
+          <Main>{children}</Main>
         </Providers>
-      </body>
+      </Body>
     </html>
   );
 }

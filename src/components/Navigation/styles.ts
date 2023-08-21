@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
-export const Container = styled.section`
+export const Wrapper = styled.section`
   background-color: var(--colors-bg-alt);
 `;
 
-export const Wrapper = styled.nav`
+export const Container = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;

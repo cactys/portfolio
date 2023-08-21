@@ -1,10 +1,10 @@
 'use client';
 
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
 import bg from '../../images/pic__COLOR_landing-logo.svg';
 
-export const Container = styled.section`
+export const Wrapper = styled.section`
   background-color: var(--colors-head);
   background-image: url('${bg.src}');
   background-position: center;
@@ -12,11 +12,10 @@ export const Container = styled.section`
   background-size: 320px;
 `;
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
   display: flex;
   height: 524px;
   align-items: center;
-
 `;
 
 export const Title = styled.h1`
