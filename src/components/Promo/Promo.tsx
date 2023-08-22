@@ -1,13 +1,16 @@
 'use client';
 
+import { LazyShow } from '../LazyShow/LazyShow';
 import { Container, Title, Wrapper } from './styles';
 
 export const Promo = () => {
   return (
     <Wrapper>
-      <Container>
-        <Title>Учебный проект студента факультета Веб-разработки.</Title>
-      </Container>
+      <LazyShow>
+        <Container>
+          <Title>Учебный проект студента факультета Веб-разработки.</Title>
+        </Container>
+      </LazyShow>
     </Wrapper>
   );
 };

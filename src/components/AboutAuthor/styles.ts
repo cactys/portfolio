@@ -7,6 +7,7 @@ export const Wrapper = styled.section`
   padding: 100px 10px 0;
   margin: 0 auto;
   max-width: 1140px;
+  width: 100%;
 `;
 
 export const Title = styled.h2`
@@ -92,4 +93,5 @@ export const Avatar = styled(Image)`
   background-color: var(--colors-bg-alt);
   object-fit: cover;
   object-position: center;
+  box-shadow: var(--shadow);
 `;
