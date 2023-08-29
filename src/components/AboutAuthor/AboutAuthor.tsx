@@ -28,9 +28,9 @@ export const AboutAuthor = () => {
             <AuthorName>Владимир</AuthorName>
             <AuthorAbout>Фронтенд-разработчик, 39 лет</AuthorAbout>
           </LazyShow>
-          <DescriptionList>
-            <DescriptionItem>
-              <LazyShow>
+          <LazyShow>
+            <DescriptionList>
+              <DescriptionItem>
                 Я работаю в сфере IT более 17 лет и за это время накопил
                 значительный опыт в области системного администрирования. Я
                 ответственный и дисциплинированный специалист, готовый решать
@@ -38,10 +38,8 @@ export const AboutAuthor = () => {
                 мониторингом компьютерных систем. Я также имею знания в области
                 сетевой безопасности, что позволяет мне обеспечивать защиту
                 информации и данных на компьютерных сетях.
-              </LazyShow>
-            </DescriptionItem>
-            <DescriptionItem>
-              <LazyShow>
+              </DescriptionItem>
+              <DescriptionItem>
                 Недавно я начал изучать разработку веб-приложений и прошел
                 обучение на курсе "Frontend разработчик" и "React разработчик" в
                 Яндекс Практикуме. За время обучения я узнал много нового о
@@ -49,19 +47,17 @@ export const AboutAuthor = () => {
                 базами данных, веб-технологиях и тестировании кода. Я уверен,
                 что приобретенные знания помогут мне стать успешным Frontend
                 разработчиком и реализовать свои профессиональные амбиции.
-              </LazyShow>
-            </DescriptionItem>
-            <DescriptionItem>
-              <LazyShow>
+              </DescriptionItem>
+              <DescriptionItem>
                 Я стремлюсь к профессиональному развитию и всегда открыт новым
                 вызовам и задачам. Я уверен, что мои знания и опыт в системном
                 администрировании в сочетании с навыками веб-разработки позволят
                 мне эффективно работать в команде и достигать высоких
                 результатов. Я готов к новым проектам и ищу возможности для
                 роста и развития в своей новой профессии.
-              </LazyShow>
-            </DescriptionItem>
-          </DescriptionList>
+              </DescriptionItem>
+            </DescriptionList>
+          </LazyShow>
           <LazyShow>
             <GitHub href="https://github.com/cactys" target="blanc">
               GitHub
