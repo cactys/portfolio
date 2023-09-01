@@ -1,5 +1,7 @@
 'use client';
 
+import { LegacyRef } from 'react';
+
 import {
   Grid,
   GridItemBackend,
@@ -14,9 +16,10 @@ import {
 import { Card } from '../Card/Card';
 import { LazyShow } from '../LazyShow/LazyShow';
 
-export const AboutProject = () => {
+export const AboutProject = ({ aboutRef }: { aboutRef: LegacyRef<HTMLElement> }) => {
+
   return (
-    <Wrapper>
+    <Wrapper ref={aboutRef}>
       <Title>О проекте</Title>
       <LazyShow>
         <List>

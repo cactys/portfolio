@@ -1,10 +1,12 @@
 'use client';
 
+import { LegacyRef } from 'react';
+
 import { Container, NavEl, NavLink, NavList, Wrapper } from './styles';
 
-export const Navigation = () => {
+export const Navigation = ({ scrollRef, onScroll }: { scrollRef: LegacyRef<HTMLElement>; onScroll: VoidFunction }) => {
   return (
-    <Wrapper>
+    <Wrapper ref={scrollRef} onScroll={onScroll}>
       <Container>
         <NavList>
           <NavEl>
